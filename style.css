@@ -50,13 +50,13 @@ body{color: #000602; background-color: #000602; }
 .general{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50rem;
-    height: 40rem;
+    height: 60rem;
     text-align: left;
-    background-color:#148de7;
-    border-color:#0086c2;
+    background-color:#0086c2;
+    border-color:#0086c2; 
     padding: .5rem;
     border-radius: 1.5rem;
-    margin: 1rem;
+    margin: 1.5rem;
     .general-heading{
         font-size: 35px;
         margin: 1rem;
@@ -64,14 +64,16 @@ body{color: #000602; background-color: #000602; }
     .general-list{
         font-size: 25px;
         font-weight: 500;
-    }
-    .general-linkh{
-        font-size: 35px;
-        margin: 1rem;
-    }
-    .general-links{
-        font-size: 25px;
         
-
+    }
+    
+}
+.links{
+    .links{
+        list-style-type: none;
+        text-decoration: none;
+    }
+    .links-all{
+        display:inline-block
     }
 }
