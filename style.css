@@ -24,7 +24,13 @@ div{
 
 
  
-body{color: #000602; background-color: #000602; }
+body{color: #000602; 
+    background-color: #000602; 
+    background-size:contain;
+     background-color: rgba(193, 193, 197, 0.8);
+    ;}
+
+
 
 .Intro{
     width: 73.8rem;
@@ -36,10 +42,13 @@ body{color: #000602; background-color: #000602; }
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     border-radius: 2rem;
+    opacity: .9;
     .Intro-Title{
         font-size: 45px;
         letter-spacing: 1.5px;
         margin:0.3rem
+
+
     }
     .Intro-smallsum{
         font-size: 20px;
@@ -50,30 +59,35 @@ body{color: #000602; background-color: #000602; }
 .general{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 50rem;
-    height: 60rem;
+    height: 40rem;
     text-align: left;
     background-color:#0086c2;
     border-color:#0086c2; 
     padding: .5rem;
     border-radius: 1.5rem;
     margin: 1.5rem;
+    opacity: .9 ;
     .general-heading{
         font-size: 35px;
         margin: 1rem;
+        opacity: 1;
     }
     .general-list{
         font-size: 25px;
         font-weight: 500;
+        opacity: 1;
         
     }
-    
-}
-.links{
-    .links{
+    .general.h{
+        font-size: 50px;
+    }
+    .general-linksall, *{
+        opacity: 1;
+        border-radius: 10px;
+        justify-content: right;
         list-style-type: none;
         text-decoration: none;
-    }
-    .links-all{
         display:inline-block
     }
 }
+
