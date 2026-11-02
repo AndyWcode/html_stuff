@@ -27,8 +27,10 @@ div{
 body{color: #000602; 
     background-color: #000602; 
     background-size:contain;
-     background-color: rgba(193, 193, 197, 0.8);
-    ;}
+    
+     background-image:url("https://wallpapercave.com/wp/wp12475759.jpg");
+      background-color: rgba(193, 193, 197, 0.8);
+}
 
 
 
@@ -57,12 +59,14 @@ body{color: #000602;
     
 }
 
+
 .general{
-    font-size: 10rem;
     display: flex;
+    flex: wrap;
+    font-size: 10rem;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 60%;
+    width: 95%;
     height: 80%;
     text-align: left;
     background-color:#0086c2;
@@ -71,6 +75,8 @@ body{color: #000602;
     border-radius: 1.5rem;
     margin: 1.5rem;
     opacity: .9 ;
+    margin-right: 0;
+    }
     .general-heading{
         font-size: 25%;
         margin: 1%;
@@ -89,14 +95,23 @@ body{color: #000602;
     }
     .general-linksall, *{
         display: flex;
-        flex-wrap: wrap;
+        flex: wrap;
         justify-content: space-between;
+        justify-content: right;
         opacity: 1;
         border-radius: 10px;
-        justify-content: right;
         list-style-type: none;
         text-decoration: none;
-        display:inline-block
+        display:inline-block;
+        margin-bottom: 0;
+        margin-right: 0;
+    
     }
-}
+    .myimg{
+    align-items: flex-end;
+    width: 25rem;
+    height: 25rem;
+    margin-left: 125rem;
+    }
+
 
